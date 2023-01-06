@@ -1,0 +1,77 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-Gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --secundarioOscuro: rgb(233, 287, 2);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --FuentePrincipal: ;
+}
+
+/*Global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px*/
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+.contenedor{
+    max-width: 190rem;
+}
+
+/* QR Design */
+body {
+    background-color: var(--Light-Gray);
+}
+
+.box-qr{
+    width: 35rem;
+    height: 52rem;
+    background-color: var(--White);
+    margin: 0 auto;
+    margin-top: 14rem;
+    border-radius: 2rem;
+}
+
+.imagen-qr img {
+    width: 32rem;
+    height: 32rem;
+    margin: 1.5rem;
+    border-radius: 2rem;
+}
+
+/* box-text*/
+.text p {
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin: 0 auto;
+    margin-right: 4rem;
+    margin-left: 3rem;
+    text-align: center;
+
+}
+
+.aditional-text p {
+    margin-left: 2.6rem;
+    margin-right: 3rem;
+    color: var(--Grayish-blue);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
